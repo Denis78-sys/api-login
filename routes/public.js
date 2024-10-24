@@ -43,13 +43,13 @@ router.post("/cadastro", async (req, res) => {
   }
 });
 
-
+/* 
 router.get("/usuarios", async (req, res) => {
   const user = await prisma.user.findMany();
 
   res.status(200).json(user);
 });
-
+ */
 //Criando tokin de usuário
 //Rota de login desencriptando senha
 router.post("/login", async (req, res) => {
